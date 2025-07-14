@@ -10,33 +10,33 @@
 /* following Associated Array is taken from /~heines/91.461/91.461-2015-16f/461-assn/Scrabble_Pieces_AssociativeArray_Jesse.js
 * all credit is given to Jesse M. Heines for this piece of code. */
 let SCRABBLE_TILES = [] ;
-SCRABBLE_TILES["A"] = { "value" : 1,  "original-distribution" : 9,  "number-remaining" : 9, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_A.jpg"  } ;
-SCRABBLE_TILES["B"] = { "value" : 3,  "original-distribution" : 2,  "number-remaining" : 2, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_B.jpg"} ;
-SCRABBLE_TILES["C"] = { "value" : 3,  "original-distribution" : 2,  "number-remaining" : 2, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_C.jpg"} ;
-SCRABBLE_TILES["D"] = { "value" : 2,  "original-distribution" : 4,  "number-remaining" : 4, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_D.jpg"} ;
-SCRABBLE_TILES["E"] = { "value" : 1,  "original-distribution" : 12, "number-remaining" : 12, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_E.jpg"} ;
-SCRABBLE_TILES["F"] = { "value" : 4,  "original-distribution" : 2,  "number-remaining" : 2, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_F.jpg"} ;
-SCRABBLE_TILES["G"] = { "value" : 2,  "original-distribution" : 3,  "number-remaining" : 3, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_G.jpg"} ;
-SCRABBLE_TILES["H"] = { "value" : 4,  "original-distribution" : 2,  "number-remaining" : 2, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_H.jpg"} ;
-SCRABBLE_TILES["I"] = { "value" : 1,  "original-distribution" : 9,  "number-remaining" : 9, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_I.jpg"} ;
-SCRABBLE_TILES["J"] = { "value" : 8,  "original-distribution" : 1,  "number-remaining" : 1, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_J.jpg"} ;
-SCRABBLE_TILES["K"] = { "value" : 5,  "original-distribution" : 1,  "number-remaining" : 1, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_K.jpg"} ;
-SCRABBLE_TILES["L"] = { "value" : 1,  "original-distribution" : 4,  "number-remaining" : 4, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_L.jpg"} ;
-SCRABBLE_TILES["M"] = { "value" : 3,  "original-distribution" : 2,  "number-remaining" : 2, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_M.jpg"} ;
-SCRABBLE_TILES["N"] = { "value" : 1,  "original-distribution" : 6,  "number-remaining" : 6, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_N.jpg"} ;
-SCRABBLE_TILES["O"] = { "value" : 1,  "original-distribution" : 8,  "number-remaining" : 8, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_O.jpg"} ;
-SCRABBLE_TILES["P"] = { "value" : 3,  "original-distribution" : 2,  "number-remaining" : 2, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_P.jpg"} ;
-SCRABBLE_TILES["Q"] = { "value" : 10, "original-distribution" : 1,  "number-remaining" : 1, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_Q.jpg"} ;
-SCRABBLE_TILES["R"] = { "value" : 1,  "original-distribution" : 6,  "number-remaining" : 6, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_R.jpg"} ;
-SCRABBLE_TILES["S"] = { "value" : 1,  "original-distribution" : 4,  "number-remaining" : 4, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_S.jpg"} ;
-SCRABBLE_TILES["T"] = { "value" : 1,  "original-distribution" : 6,  "number-remaining" : 6, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_T.jpg"} ;
-SCRABBLE_TILES["U"] = { "value" : 1,  "original-distribution" : 4,  "number-remaining" : 4, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_U.jpg"} ;
-SCRABBLE_TILES["V"] = { "value" : 4,  "original-distribution" : 2,  "number-remaining" : 2, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_V.jpg"} ;
-SCRABBLE_TILES["W"] = { "value" : 4,  "original-distribution" : 2,  "number-remaining" : 2, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_W.jpg"} ;
-SCRABBLE_TILES["X"] = { "value" : 8,  "original-distribution" : 1,  "number-remaining" : 1, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_X.jpg"} ;
-SCRABBLE_TILES["Y"] = { "value" : 4,  "original-distribution" : 2,  "number-remaining" : 2, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_Y.jpg"} ;
-SCRABBLE_TILES["Z"] = { "value" : 10, "original-distribution" : 1,  "number-remaining" : 1, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_Z.jpg"} ;
-SCRABBLE_TILES["_"] = { "value" : 0,  "original-distribution" : 2,  "number-remaining" : 2, "url": "../graphics_data/Scrabble_Tiles/Scrabble_Tile_Blank.jpg"} ;
+SCRABBLE_TILES["A"] = { "value" : 1,  "original-distribution" : 9,  "number-remaining" : 9, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_A.jpg"  } ;
+SCRABBLE_TILES["B"] = { "value" : 3,  "original-distribution" : 2,  "number-remaining" : 2, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_B.jpg"} ;
+SCRABBLE_TILES["C"] = { "value" : 3,  "original-distribution" : 2,  "number-remaining" : 2, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_C.jpg"} ;
+SCRABBLE_TILES["D"] = { "value" : 2,  "original-distribution" : 4,  "number-remaining" : 4, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_D.jpg"} ;
+SCRABBLE_TILES["E"] = { "value" : 1,  "original-distribution" : 12, "number-remaining" : 12, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_E.jpg"} ;
+SCRABBLE_TILES["F"] = { "value" : 4,  "original-distribution" : 2,  "number-remaining" : 2, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_F.jpg"} ;
+SCRABBLE_TILES["G"] = { "value" : 2,  "original-distribution" : 3,  "number-remaining" : 3, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_G.jpg"} ;
+SCRABBLE_TILES["H"] = { "value" : 4,  "original-distribution" : 2,  "number-remaining" : 2, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_H.jpg"} ;
+SCRABBLE_TILES["I"] = { "value" : 1,  "original-distribution" : 9,  "number-remaining" : 9, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_I.jpg"} ;
+SCRABBLE_TILES["J"] = { "value" : 8,  "original-distribution" : 1,  "number-remaining" : 1, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_J.jpg"} ;
+SCRABBLE_TILES["K"] = { "value" : 5,  "original-distribution" : 1,  "number-remaining" : 1, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_K.jpg"} ;
+SCRABBLE_TILES["L"] = { "value" : 1,  "original-distribution" : 4,  "number-remaining" : 4, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_L.jpg"} ;
+SCRABBLE_TILES["M"] = { "value" : 3,  "original-distribution" : 2,  "number-remaining" : 2, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_M.jpg"} ;
+SCRABBLE_TILES["N"] = { "value" : 1,  "original-distribution" : 6,  "number-remaining" : 6, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_N.jpg"} ;
+SCRABBLE_TILES["O"] = { "value" : 1,  "original-distribution" : 8,  "number-remaining" : 8, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_O.jpg"} ;
+SCRABBLE_TILES["P"] = { "value" : 3,  "original-distribution" : 2,  "number-remaining" : 2, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_P.jpg"} ;
+SCRABBLE_TILES["Q"] = { "value" : 10, "original-distribution" : 1,  "number-remaining" : 1, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_Q.jpg"} ;
+SCRABBLE_TILES["R"] = { "value" : 1,  "original-distribution" : 6,  "number-remaining" : 6, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_R.jpg"} ;
+SCRABBLE_TILES["S"] = { "value" : 1,  "original-distribution" : 4,  "number-remaining" : 4, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_S.jpg"} ;
+SCRABBLE_TILES["T"] = { "value" : 1,  "original-distribution" : 6,  "number-remaining" : 6, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_T.jpg"} ;
+SCRABBLE_TILES["U"] = { "value" : 1,  "original-distribution" : 4,  "number-remaining" : 4, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_U.jpg"} ;
+SCRABBLE_TILES["V"] = { "value" : 4,  "original-distribution" : 2,  "number-remaining" : 2, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_V.jpg"} ;
+SCRABBLE_TILES["W"] = { "value" : 4,  "original-distribution" : 2,  "number-remaining" : 2, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_W.jpg"} ;
+SCRABBLE_TILES["X"] = { "value" : 8,  "original-distribution" : 1,  "number-remaining" : 1, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_X.jpg"} ;
+SCRABBLE_TILES["Y"] = { "value" : 4,  "original-distribution" : 2,  "number-remaining" : 2, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_Y.jpg"} ;
+SCRABBLE_TILES["Z"] = { "value" : 10, "original-distribution" : 1,  "number-remaining" : 1, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_Z.jpg"} ;
+SCRABBLE_TILES["_"] = { "value" : 0,  "original-distribution" : 2,  "number-remaining" : 2, "url": "graphics_data/Scrabble_Tiles/Scrabble_Tile_Blank.jpg"} ;
 
 
 $(document).ready(function () {
