@@ -1,3 +1,12 @@
+/*
+   File: style.css
+   GUI Assignment: HW5
+   Description: Scrabble
+   Vittoria Santoro, UMass Lowell Computer Science, vittoria_santoro@student.uml.edu
+   Copyright (c) 2025 by Santoro. All rights reserved. May be freely copied or
+   excerpted for educational purposes with credit to the author.
+ */
+
 html {
     margin: 0;
     height: 100%;
@@ -6,7 +15,6 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    /*display inline block so everything is in linear fashion*/
     display: flex;
     justify-content: center;
     background-color: navajowhite;
@@ -16,14 +24,14 @@ body {
 }
 
 #board {
-    background: url("../graphics_data/Scrabble_Board_OneLine.png") no-repeat center center;
+    background: url("../graphics_data/Scrabble_Board_OneLine.png") no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     margin-top: 100px;
     margin-left: 0;
     position: relative;
-    width: 1500px;
+    width: 1410px; /* 15 x 94 */
     height: 100px;
 }
 
@@ -38,39 +46,27 @@ body {
     left: 0;
     width: 750px;
     height: 100px;
-    display:flex;                       /* <— magic line                 */
-    justify-content:space-between;      /* even gaps between tiles       */
-    align-items:flex-end;               /* sit tiles on the wooden lip   */
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
 }
 
 #tile-holder > div {
     width:90px;
-    height:90px;        /* whatever a square letter is */
-    background-size:contain;        /* you’ll set a PNG later       */
+    height:90px;
+    background-size:contain;
     background-repeat:no-repeat;
-    cursor:move;                    /* still draggable via jQueryUI */
+    cursor:move;
     user-select:none;
 }
 
-#tile-1 {
-    background: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_H.jpg");
+#board > div {
+    width:90px;
+    height:90px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    cursor:move;
+    user-select:none;
 }
-
-#tile-2 {
-    background: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_E.jpg");
-}
-
-#tile-3 {
-    background: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_L.jpg");
-}
-
-#tile-4 {
-    background: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_L.jpg");
-}
-
-#tile-5 {
-    background: url("../graphics_data/Scrabble_Tiles/Scrabble_Tile_O.jpg");
-}
-
 
 
